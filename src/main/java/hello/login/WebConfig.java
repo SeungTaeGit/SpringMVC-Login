@@ -27,7 +27,7 @@ public class WebConfig implements WebMvcConfigurer {
                 .order(2)
                 .addPathPatterns("/**")
                 .excludePathPatterns("/", "/memebers/add", "/login", "/logout",
-                        "/css/**", "/*.ico", "/error");
+                        "/css/**", "/*.ico", "/error"); // 스프링 인터셉터 장점 (치밀하게 설정 가능)
     }
 
 //    @Bean
